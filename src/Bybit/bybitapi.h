@@ -39,7 +39,6 @@ protected:
         std::list<QString> list;
 
         for(const auto &it : arr){
-            auto a = it.toObject()["symbol"].toString();
             list.push_back(it.toObject()["symbol"].toString());
         }
 
